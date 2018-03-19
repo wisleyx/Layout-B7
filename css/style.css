@@ -1,0 +1,176 @@
+*{
+	font-family:arial;
+}
+body{
+	margin:0;
+	padding:0;
+	background-image: url('../images/espaço2.jpg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
+    display:flex;
+}
+
+.left_area{
+	width:180px;
+	height:2082px;
+	background-color:#373F42;
+	/*float:left;*/
+
+}
+
+.logo{
+	display:flex;
+	justify-content:center;
+	padding:12px 0 12px 0;
+
+}
+
+.user_area{
+	display:flex;
+	height:42px;
+}
+
+.item{
+	margin-left:13px;
+}
+
+.name{
+	margin-bottom:8px;
+	color:#FFFFFF;
+}
+
+.score{
+	color:#B8C1A9;
+	font-size:12px;
+}
+
+.user_not{
+	background-color:red;
+	color:#fff;
+	width:14px;
+	height:17px;
+	border-radius:20px;
+	font-size:12px;
+	padding:3px 0 0px 6;
+	margin-top:15px;
+}
+
+nav{
+	margin-top:15px;
+}
+
+.item_menu{
+	height:50px;
+	color:#fff;
+	padding-left:13px;
+	font-size:16px;
+	display:flex;
+	align-items:center;
+	cursor:pointer;  
+}
+
+.item_menu img{
+	margin-right:15px;
+
+}
+
+.item_menu:hover{
+	background-color:#E2E2E2;
+	color:#4B5457;
+}
+
+.active{
+	background-color:#E2E2E2;
+	color:#4B5457;
+}
+
+.right_area{
+	flex:1;
+	display:flex;
+	flex-direction:column;
+}
+
+.right1{
+	/*flex:1;*/
+	display:flex;
+	justify-content:space-around;
+}
+
+.right2{
+	flex:1;
+	display:flex;
+	justify-content:space-around;
+	margin-top:10px;
+}
+
+.widget_item{
+	flex:1;
+	max-width:334px;
+	margin:25px;
+}
+
+.widget_title{
+	background-color:rgba(10,100,150,0.5);
+	padding:20px;
+	border-radius:2px;
+	border-bottom:1px solid gray;
+	font-weight:bold;
+
+}
+
+.widgte_body{
+	/*height:auto;*/
+	background-color:gray;
+	padding:15px; 
+}
+
+.Pflex{
+	display:flex;
+}
+
+.porcent{
+	margin-right:15px;
+}
+
+.aulas{
+	margin-bottom:5px;
+}
+
+.Aflex{
+	max-width:300px;
+	display:flex;
+	flex-direction:column;
+}
+
+.aula_ok{
+	height:auto;
+	margin-bottom:5px;
+	padding-bottom:5px;
+	border-bottom:1px solid black; 
+}
+
+.aula_ok img{
+	margin-right:5px;
+}
+
+.aula_ok a{
+	text-decoration:none;
+	color:#23527C;
+}
+
+.aula_ok a:hover{
+	text-decoration:underline;
+}
+
+.dis_area{
+	max-width:300px;
+	display:flex;
+	flex-direction:column;
+}
+
+.dis_title{
+	overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
