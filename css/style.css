@@ -11,13 +11,15 @@ body{
     display:flex;
 }
 
+
 .left_area{
 	width:180px;
-	height:2082px;
+	/*height:2000px;*/
 	background-color:#373F42;
 	/*float:left;*/
 
 }
+
 
 .logo{
 	display:flex;
@@ -167,10 +169,48 @@ nav{
 	max-width:300px;
 	display:flex;
 	flex-direction:column;
+	margin-bottom:15px;
 }
 
 .dis_title{
-	overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+	font-weight:bold;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
 }
+
+.f_name_time{
+	color:#000;
+	/*font-weight:bold;*/
+	font-size:11px;
+	margin-top:5px;
+	display:flex;
+	align-items:center;
+}
+
+.f_name_time img{
+	margin-right:5px;
+}
+
+#select{
+	width:100%;
+	margin-bottom:15px;
+}
+
+.new_area{
+	border-bottom:1px solid #000;
+	margin-bottom:10px;
+	padding-bottom:5px; 
+}
+
+
+.name_aula a{
+	text-decoration:none;
+	color:#23527C;
+}
+
+.date_aula{
+	font-size:14px;
+}
+
+/*pesquisar para que serve o overflow, text-flow e o white-space*/
