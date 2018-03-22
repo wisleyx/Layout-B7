@@ -2,21 +2,22 @@
 	font-family:arial;
 }
 body{
+	height:100vh;
 	margin:0;
 	padding:0;
-	background-image: url('../images/espaço2.jpg');
-    background-repeat: no-repeat;
-    background-attachment:scroll;
-    background-size:cover;
+	background-color:#000;
+	/*background-image: url('../images/espaço2.jpg');*/
+    /*background-repeat: no-repeat;*/
+    /*background-attachment:scroll;*/
+    /*background-size:cover;*/
     display:flex;
 }
 
 
 .left_area{
 	width:180px;
-	/*height:2000px;*/
+	height:100%;
 	background-color:#373F42;
-	/*float:left;*/
 
 }
 
@@ -32,6 +33,7 @@ body{
 	display:flex;
 	height:42px;
 }
+
 
 .item{
 	margin-left:13px;
@@ -57,6 +59,7 @@ body{
 	padding:3px 0 0px 6;
 	margin-top:15px;
 }
+
 
 nav{
 	margin-top:15px;
@@ -90,26 +93,21 @@ nav{
 .right_area{
 	flex:1;
 	display:flex;
-	flex-direction:column;
 }
 
 .right1{
-	/*flex:1;*/
 	display:flex;
-	justify-content:space-around;
+	flex-direction:column;
 }
 
 .right2{
-	flex:1;
 	display:flex;
-	justify-content:space-around;
-	margin-top:10px;
+	flex-direction:column;
 }
 
 .widget_item{
-	flex:1;
 	max-width:334px;
-	margin:25px;
+	margin:20px;
 }
 
 .widget_title{
