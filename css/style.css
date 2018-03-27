@@ -2,21 +2,20 @@
 	font-family:arial;
 }
 body{
-	height:100vh;
 	margin:0;
 	padding:0;
-	background-color:#000;
-	/*background-image: url('../images/espaço2.jpg');*/
-    /*background-repeat: no-repeat;*/
-    /*background-attachment:scroll;*/
-    /*background-size:cover;*/
+	background-color:#fff;
+	background-image: url('../images/espaço2.jpg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
     display:flex;
 }
 
 
 .left_area{
 	width:180px;
-	height:100%;
+	height:100vh;
 	background-color:#373F42;
 
 }
@@ -96,11 +95,6 @@ nav{
 }
 
 .right1{
-	display:flex;
-	flex-direction:column;
-}
-
-.right2{
 	display:flex;
 	flex-direction:column;
 }
@@ -208,7 +202,8 @@ nav{
 }
 
 .date_aula{
-	font-size:14px;
-}
+	font-size:10px;
+}	
+
 
 /*pesquisar para que serve o overflow, text-flow e o white-space*/
